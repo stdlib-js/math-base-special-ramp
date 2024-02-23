@@ -78,7 +78,7 @@ R(x) = \mathop{\mathrm{max}}( x, 0 )
 ## Usage
 
 ```javascript
-import ramp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ramp@esm/index.mjs';
+import ramp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ramp@v0.2.1-esm/index.mjs';
 ```
 
 #### ramp( x )
@@ -113,7 +113,7 @@ v = ramp( NaN );
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import ramp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ramp@esm/index.mjs';
+import ramp from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ramp@v0.2.1-esm/index.mjs';
 
 var x = linspace( -10.0, 10.0, 101 );
 
